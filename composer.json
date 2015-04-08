@@ -1,0 +1,20 @@
+{
+  "name":             "PHPupSub",
+  "description":      "A simple pub/sub library",
+  "license":          "BSD",
+  "authors": [
+    {
+      "name":         "Damon Swayn",
+      "email":        "damon.swayn@gmail.com",
+      "homepage":     "http://shruubi.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  }
+}
